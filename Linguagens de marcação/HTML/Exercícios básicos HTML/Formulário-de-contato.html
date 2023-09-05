@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contatos</title>
+</head>
+<body>
+    <!--Nesse desafio você vai criar um formulário para contato.-->
+    <fieldset>
+        <legend>Entre em contato</legend>
+        <p>Assunto:
+             <select>   
+                 <option>Suporte</option>
+                 <option>Sugestões</option>
+                 <option>Reclamações</option>
+             </select>
+        </p>
+        <br>
+        <p> Nome Completo:</p>
+            <form>
+                <input type="text" name="Nome" placeholder="Digite seu nome completo">
+             </form>
+        <br>
+        <p> E-mail:</p>
+        <form>
+            <input type="email" name="E-mail" placeholder="email@seudominio.com">
+        </form>
+        <br>
+        <p>Mensagem:</p>
+        <textarea id="Mensagem" name="Mensagem" rows="5" cols="35"></textarea>
+        <form>
+            <p><input type="checkbox">Aceito receber novidades</p>
+        </form>
+        <button>Enviar</button>
+    </fieldset>
+</body>
+</html>
