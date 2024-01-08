@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Tabelas HTML Semânticas</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tabelas Semânticas em HTML</h1>
+
+    <h2>Tabela Básica</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+                <td>Desenvolvedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>Designer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabela com Colspan e Rowspan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Informações Pessoais</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td rowspan="2">Idade: 25<br>Profissão: Desenvolvedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Layout de Tabela</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" style="background-color: #f2f2f2;">Cabeçalho da Tabela</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width: 30%;">Conteúdo à Esquerda</td>
+                <td>Conteúdo à Direita</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
